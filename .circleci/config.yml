@@ -19,6 +19,6 @@ jobs:
           path: test-results
 
 workflows:
-  testing_thing:
+  testing:
     jobs:
       - build-and-test
